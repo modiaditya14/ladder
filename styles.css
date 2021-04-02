@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+.bpar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board{
+    width: 616px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    align-items:stretch;
+    justify-content: stretch;
+}
+.colorChoose{
+    border-radius: 50%;
+    border:0 solid black;
+    outline: 0;
+    padding: 0;
+    font-size: x-large;
+    width: 40px;
+    height: 40px;
+}
+.colorSelect{
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    border:0 solid black;
+    outline: 0;
+    padding: 0;
+    font-size: x-large;
+    /* width: 40px; */
+    height: 30px;
+}
+.dice{margin:1em;
+    display: none}
+.red{background-color: red;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.board div{
+    position: relative;
+    text-align: left;
+    margin: 0;
+border: 1px solid black;
+    width: 59.59px;
+    height: 59.7px;
+    background-color: rgb(229, 255, 0);
+    display: flex;
+}
