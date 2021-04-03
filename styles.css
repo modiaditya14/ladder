@@ -7,8 +7,8 @@ body{
     justify-content: center;
 }
 .board{
-    width: 616px;
-    height: 620px;
+    width: 560px;
+    height: 520px;
     display: flex;
     flex-wrap: wrap;
     border: 5px solid black;
@@ -45,8 +45,8 @@ body{
     text-align: left;
     margin: 0;
 border: 1px solid black;
-    width: 59.59px;
-    height: 59.7px;
+    width: 54px;
+    height: 50px;
     background-color: rgb(229, 255, 0);
     display: flex;
 }

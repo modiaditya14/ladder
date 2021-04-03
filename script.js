@@ -73,12 +73,16 @@ const move = (no, parent) => {
     } else {
         move(parseInt(pos) + Math.floor(Math.random() * 5) + 1, p1Elem.parentElement);
     }
+    if (p1Elem.parentElement.id == "100") {
+        console.log("win");
+        document.querySelector(".dice").innerHTML = "<h1>You Win!!</h1><button onclick='location.reload()'>Restart</button>";
+    }
     pos = (p1Elem.parentElement.id);
     if (Object.keys(laddersPos).includes(pos)) {
-        setTimeout(move, 500, laddersPos[pos], p1Elem.parentElement);
+        setTimeout(move, 200, laddersPos[pos], p1Elem.parentElement);
     }
     if (Object.keys(snakesPos).includes(pos)) {
-        setTimeout(move, 500, snakesPos[pos], p1Elem.parentElement);
+        setTimeout(move, 200, snakesPos[pos], p1Elem.parentElement);
 
     }
 };
