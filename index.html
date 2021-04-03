@@ -14,15 +14,24 @@
     <div class="bpar">
         <div class="board">
         </div>
-        <div class="chose1">
-            <h1>Player 1</h1>
-            <p>Choose Your Color to start playing:</p>
-            <button class="colorChoose blue">⭐</button>
-            <button class="colorChoose red">⭐</button>
-            <button class="colorChoose green">⭐</button>
+        <div id=hideChose>
+            <h1>Choose your color to start playing</h1>
+            <div class="chose1">
+                <h1>Player 1</h1>
+                <button class="a colorChoose blue">⭐</button>
+                <button class="a colorChoose red">⭐</button>
+                <button class="a colorChoose green">⭐</button>
+            </div>
+            <div class="chose2">
+                <h1>Player 2</h1>
+                <button class="b colorChoose blue">⭐</button>
+                <button class="b colorChoose red">⭐</button>
+                <button class="b colorChoose green">⭐</button>
+            </div>
         </div>
         <div class="dice">
             <button>
+                <h1 id="wturn"></h1>
                 <h1>Click to roll dice</h1>
                 <!-- <img id="diceImg"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Dice-1-b.svg/200px-Dice-1-b.svg.png"
